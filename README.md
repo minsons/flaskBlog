@@ -1,6 +1,6 @@
 
 # 欢迎使用flaskBlog
-A blog framework developed by flaskand flask_admin
+A blog framework developed by flask and flask_admin 
 ------
 
 flask对于我来说，适合快速开发一些小网页,自己也想整一个博客就写了这个blog的后端，其实也就是做了简单的整合：
