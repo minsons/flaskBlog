@@ -26,15 +26,18 @@ python3+
 
 ## 安装
 1，项目拉下来
-'''
+```
 git clone https://github.com/minsons/flaskBlog.git
-'''
+```
 2,修改数据库及其配置
 在config.py 修改数据 SQLALCHEMY_DATABASE_URI为自己的数据库 
 在gendb.py 的目录环境下，执行以下命令：
+
+```
 python gendb.py db init 
 python gendb.py db migrate
 python gendb.py db upgrade
+```
 就会生成相应的数据库，即可正常工作了
 可以直接pycharm控制台启动也可以命令行启动
 python flaskAdmin.py
